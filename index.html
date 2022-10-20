@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src\css\style.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="estrutura-grid">
+      <header class="header">
+        <a href="#" class="header-logo"
+          ><img
+            src="/src/images/logo-home-branco-contorno-laranja.png"
+            alt="logo-blog-cookk"
+        /></a>
+        <nav class="nav">
+          <ul>
+            <li><a href="#" target="_self">Home</a></li>
+            <li><a href="#" target="_self">Receitas</a></li>
+            <li><a href="#" target="self">Sobre</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <nav class="sidenav">
+        <ul class="sidenav-lista">
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/icone-salgados-sidenav.svg"
+                alt="Botão com ilustração de Salgados"
+                class="icons-sidenav"
+              />Salgados</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/icone-doces-sidenav.svg"
+                alt="Botão com ilustração de doces"
+                class="icons-sidenav"
+              />Doces</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/icone-saladas-sidenav.svg"
+                alt="Botão com ilustração de Verduras"
+                class="icons-sidenav"
+              />Saladas</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="/src/images/icone-sucos-sidenav.svg"
+                alt="Botão com ilustração de Sucos"
+                class="icons-sidenav"
+              />Bebidas</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <main class="conteudo-principal">
+        <section class="conteudo-principal-grid">
+          <div class="titulo-receita-do-dia">
+            <h3>Receita do Dia</h3>
+            <h1>Bolo de Chocolate</h1>
+          </div>
+
+          <div class="container-grid-receita-do-dia">
+            <img
+              src="/src/images/bolo-de-chocolate-main.png"
+              alt=""
+              class="bolo-de-chocolate"
+            />
+            <div class="receitaDoDia-modoDePreparo">
+              <article>
+                <h4>Modo de preparo</h4>
+                  <p><strong>Massa</strong></p>
+                  <p>
+                      Junte todos os ingredientes e por último adicione o fermento. Em
+                      uma forma untada, despeje a massa e asse em forno médio (180 ºC)
+                      preaquecido por cerca de 40 minutos.
+                  </p>
+                  <p><strong>Calda</strong></p>
+                  <p>
+                      Junte todos os ingredientes em uma panela, jogue por cima do bolo
+                      para finalizar.
+                  </p>
+              </article>
+            </div>
+          </div>
+
+          <article class="receitaDoDia-ingredientes">
+            <h3><img src="/src/images/icone-ingredientes.svg">Ingredientes</h3>
+            <h4>Massa</h4>
+            <p> 3 ovos<br />
+                1/2 xícara (chá) de chocolate em pó<br />
+                2 colheres (sopa) de manteiga<br />
+                2 xícaras (chá) de farinha de trigo<br />
+                2 xícaras (chá) de açúcar<br />
+                2 colheres (sopa) de fermento<br />
+                1 xícara (chá) de leite<br />
+            </p>    
+            <h4>Calda</h4>
+            <p> 2 colheres (sopa) de manteiga<br />
+                2 colheres (sopa) de chocolate em pó 3 colheres (sopa) de açúcar
+            </p>
+          </article>
+
+        <section class="vejatTambem">          
+          <h1>Veja Também</h1>
+            <div class="card-veja-tambem" role="article">
+                <img src="/src/images/receitas-pudim.png" alt="" />
+                <h3>Pudim</h3>
+                <p>Uma delicia tradicional e difícil de não amar.</p>
+            </div>
+    
+            <div class="card-veja-tambem" role="article">
+                <img src="/src/images/receitas-bolo-de-castanha.png" alt="" />
+                <h3>Bolo de castanhas</h3>
+                <p>Uma maravilha com as castanhas da estação.</p>
+            </div>
+        </section>  
+      </main>
+
+      <section class="receitasSugeridas-inferior"> 
+        <section class="sugestoes">
+            <h2>Sugestões da semana</h2>
+            <div class="sugestoes-container" role="img">
+              <button class="pre-btn"><img src="/src/images/arrow.png" alt=""></button>
+              <button class="nxt-btn"><img src="/src/images/arrow.png" alt=""></button>
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-cheesecake-de-limao.png" alt="" />
+                    <h3>Chessecake de Limão</h3>
+                    <p>Com raspinhas de limão e amendoim.</p>
+                  </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-cupcake.png" alt="" />
+                    <h3>Cupcake Rosa</h3>
+                    <p>Aquele bolinho com cobertura de morango.</p>
+                  </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-hamburguer-de-pernil.png" alt="" />
+                    <h3>Hamburguer de pernil</h3>
+                    <p>Juramos que o alface faz ser mais leve.</p>
+                  </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                <a href="#">
+                    <img src="/src/images/receitas-creme-de-morango.png" alt="" />
+                    <h3>Creme de morango</h3>
+                    <p>Uma sobremesa refrescante.</p>
+                </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-bolo-red-velvet.png" alt="" />
+                    <h3>Bolo Red Velvet</h3>
+                    <p>Vermelho, vermelhaço, vermelhou.</p>
+                  </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                <a href="#">
+                    <img src="/src/images/receitas-risoto-de-cogumelo.png" alt="" />
+                    <h3>Risoto de cogumelo</h3>
+                    <p>Ai que loucura, seu novo prato do dia.</p>
+                </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-shake-de-framboesa.png" alt="" />
+                    <h3>Shake Framboesa</h3>
+                    <p>Aquela bebida refrescante e saúdavel.</p>
+                  </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                <a href="#">
+                    <img src="/src/images/receitas-mousse-de-chocolate.png" alt="" />
+                    <h3>Mousse de Chocolate</h3>
+                    <p>A tradicional e cremosa sobremesa.</p>
+                </a>
+              </div>
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-croissant.png" alt="" />
+                    <h3>Croissant</h3>
+                    <p>Um acompanhamento para o café da manhã.</p>
+                  </a>
+              </div>
+          
+              <div class="sugestoes-receita-container" role="article">
+                  <a href="#">
+                    <img src="/src/images/receitas-gelatina-de-pitaia.png" alt="" />
+                    <h3>Gelatina de pitaia</h3>
+                    <p>Uma sobremesa um tanto exótica.</p>
+                  </a>
+              </div>
+          </div>
+        </section>
+
+        <section class="outrasSugestoes">
+          <h2>Novidades</h2>
+          <div class="outrasSuge">
+            <article class="outrasSugestoes-card">
+                <a href="#">
+                  <img src="/src/images/receitas-inferior-salada.png" alt="" />
+                  <h3>Salada de Framboesa</h3>
+                  <p> It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                </a>
+              </article>
+              <article class="outrasSugestoes-card">
+                <a href="#">
+                  <img src="/src/images/receitas-inferior-pizza.png" alt="" />
+                  <h3>Pizza Simples</h3>
+                  <p> It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+                </a>
+              </article>
+            </div>
+          </section>
+        </section>
+
+    <footer class="footer">
+      <div class="redes-sociais">
+        <h2>Redes Sociais:</h2>
+              <i class='bx bxl-instagram-alt'>blogcookficticio</i>
+              <i class='bx bxl-facebook-circle'>blogcookficticio</i>
+            </div>
+      <div class="newsletter">
+        <label for="email">Receba nossa newsletter:<input type="email" name="email" class="newsletter" placeholder="Escreva seu e-mail">
+          <button type="submit">Inscrever-se</button></label>
+          </div>   
+     </footer>
+    </div>
+
+
+    <script src="/src/js/script.js" ></script>
+  </body>
+</html>
