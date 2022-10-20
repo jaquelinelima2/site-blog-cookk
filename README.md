@@ -1,6 +1,6 @@
 # Site Blog cookk
 
-Repositório criado durante estudo de CSS Grid e JavaScript
+Repositório criado durante estudo de CSS Grid e JavaScript.
 
 Criação de um blog de culinária fictício chamado cookk.
 
