@@ -1,18 +1,20 @@
 # Site Blog cookk
 
-Repositório criado durante estudo de CSS Grid
+Repositório criado durante estudo de CSS Grid e JavaScript
 
 Criação de um blog de culinária fictício chamado cookk.
 
 ## Aprendizados
 
-Uso de Grid CSS
+Uso de CSS Grid e Slide com JavaScript
 
 ## 🛠 Habilidades
 
 HTML
 
 CSS
+
+JavaScrip
 
 Figma
 
